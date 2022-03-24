@@ -7,9 +7,9 @@ And(/^O valor da unidade do picker a direita deve ser "([^"]*)"$/) do |value|
 end
 
 Then(/^O botão Show All deverá estar (disponivel|indisponivel)$/) do |state|
-  if state == disponivel
+  if state == "disponivel"
     puts "O botão Show All está " + state
-  elsif state == indisponivel
+  elsif state == "indisponivel"
     puts "O botão Show All está " + state
   end
 end
