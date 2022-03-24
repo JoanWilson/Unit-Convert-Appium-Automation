@@ -1,1 +1,3 @@
-# Unit-Convert-Appium-Automation
+# Teste automatizado para o aplicativo Unit Convert
+
+Em construção...
