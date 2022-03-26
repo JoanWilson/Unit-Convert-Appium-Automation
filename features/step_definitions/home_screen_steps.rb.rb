@@ -17,3 +17,13 @@ end
 When(/^Eu aperto no botão Clear$/) do
   puts "Eu apertei o botão Clear"
 end
+
+When(/^Eu digito "([^"]*)" no campo de texto$/) do |target|
+  puts "O campo de texto está preenchido com" + target
+end
+
+Then(/^Eu devo ver o resultado "([^"]*)"$/) do |result|
+  puts "O resultado é #{result}"
+end
+
+
