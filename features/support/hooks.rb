@@ -1,7 +1,8 @@
 Before do
-  puts "Hook Before foi executado"
+  $driver.start_driver
 end
 
 After do
-  puts "Hook After foi executado"
+  sleep 3
+  $driver.driver_quit
 end
